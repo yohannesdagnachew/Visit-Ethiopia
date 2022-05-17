@@ -1,0 +1,247 @@
+.nav-link {
+    color: white !important;
+}
+
+.logo{
+    height: 3.125rem;
+}
+
+.navbar {
+    background-color: rgb(48, 75, 8) !important;
+}
+
+.home-contianer {
+    background: url("images/forest.jpeg"), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37.5rem;
+    gap: 60%;
+    display: flex;
+    flex-direction: column;
+   gap: 2.5rem;
+}
+
+.title {
+    opacity: 0.9;
+    max-width: 50%;
+    margin-left: .9375rem;
+    margin-top: 6.25rem;
+} 
+
+.visit {
+    color: white; 
+    font-size: 4rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.minster {
+    color: white;
+    font-weight: bold;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+
+.card:hover {
+   opacity: 0.8;
+}
+
+.card-title {
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    padding: .9375rem;
+}
+
+.see-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.125rem;
+    text-decoration: none;  
+}
+
+.see-text{
+    background-color: #272a31;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+    margin: 3.125rem;
+    gap: 1.25rem;
+    background: linear-gradient(rgba(164, 190, 205, 0.4), rgba(3, 31, 55, 0.5));
+}
+
+.partners >img{
+    width: 18.75rem;
+    height: 6.875rem
+}
+
+.title > p {
+max-width: 100% ;
+font-size: 2rem;
+color: white;
+}
+
+.visit-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .home-contianer {
+        display: block;
+        background-image: url("images/forest.jpeg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: fit-content;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .visit {
+        color: white; 
+        font-size: 2rem;
+    }
+
+    .title{
+        margin-top: 0;
+        max-width: 100%;
+    }
+
+    .minster {
+        color: white;
+        margin-top: 1.5625rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    .title > p {
+        font-size: 1.125rem;
+    }
+
+    .visit-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100% !important;
+        gap: .625rem;
+    }
+
+    .card {
+      width: 90% !important;
+      background: linear-gradient(rgba(164, 190, 205, 0.4), rgba(3, 31, 55, 0.5));
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 40vw;
+        object-fit: cover;
+    }
+
+/* togler */
+
+.navbar-toggler {
+    width: 30px;
+    height: 20px; 
+    position: relative;
+    transition: 0.5s ease-in-out;  
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.toggler-icon {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+} 
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #d3135a;
+    border-radius: 0.0625rem;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+}
+
+.mid-bar {
+    left: 0;
+}
+
+.navbar-toggler .top-bar {
+    margin-top: 0;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .mid-bar {
+    margin-top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -1.25rem;
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .mid-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 1.25rem;
+    transform: rotate(0);
+}
+
+.logo {
+    
+    height: 3.125rem !important;
+    justify-content: space-around;
+}
+
+.nav-link {
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.navbar-nav {
+    display: flex !important;
+    align-items: center;
+}
+
+
+
+}
