@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 </head>
 <body>
+   <header class="top">
+    <div class="top-header">
+        <ul> <li></li>
+            <li class="top-list">Amharic</li>
+            <li class="top-list">My page</li>
+            <li class="top-list">Logout</li>
+        </ul>
+    </div>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="logo" src="images/logo-loin.jpeg" alt="logo"></a>
+          <a class="navbar-brand" href="#home"><img class="logo" src="images/logo-loin.jpeg" alt="logo"></a>
           <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon top-bar"></span>
             <span class="toggler-icon mid-bar"></span>
@@ -20,10 +28,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
                   </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#se">Speakers</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Book</a>
@@ -38,11 +46,12 @@
           </div>
         </div>
       </nav>
-
-      <section class="home-contianer">
+</header>
+      <section class="home-contianer" id="home">
           <div class="title">
-          <h1 class="visit">VISIT ETHIOPIA LAND OF OROIGINS</h1>
+          <h1 class="visit">VISIT ETHIOPIA LAND OF ORIGINS</h1>
            <h2 class="minster">Year Round</h2>
+           <p class="home-pharagraph">Ethiopia is the cradle of humanity, where we first walked on two legs.</p>
            <p>@Tourism Minister of Ethiopia</p></div>
       </section>
       <section class="cards">
@@ -79,14 +88,45 @@
         </div>
           <a class="see-more" href="https://visitethiopia.travel/"><h3 class="see-text">See More Places to Vist →</h3></a>
       </section>
-      <section class="speakers"></section>
-      <section class="partners">
-          <img src="images/airline.png" alt="Ethiopian-Airlines">
-          <img src="images/minister.png" alt="Ethiopian-Airlines">
-          <img src="images/ship.png" alt="Ethiopian-Airlines">
-          <img src="images/tur.png" alt="Ethiopian-Airlines">
+      <section class="speakers-parent">
+        <h3 class="place2">TOURISTS ABOUT ETHIOPIA</h3>
+          <div class="speakers-container" id="se"></div>
       </section>
-
+      
+      <section class="partners-container">
+        <h3 class="place2">Partners</h3>
+        <div class="partners" ><div class="partner-item">
+              <img class="et" src="images/et.jpeg" alt="Ethiopian-Airlines">
+              <p class="et-text">Et</p></div>
+              <div class="partner-item">
+                <img class="et" src="images/feres.png" alt="Feres">
+                <p class="et-text">Feres</p></div> 
+             <div class="partner-item">
+                    <img class="et" src="images/ship.png" alt="Emerk">
+                    <p class="et-text">Emerk</p></div>
+            <div class="partner-item">
+                        <img class="et" src="images/seregela.jpeg" alt="Seregela">
+                        <p class="et-text">Seregela</p></div>
+            <div class="partner-item">
+                 <img class="et" src="images/unisco.png" alt="Unisco">
+                <p class="et-text">Unisco</p>
+            </div>
+            <div class="partner-item">
+                <img class="et" src="images/FDRE.png" alt="Unisco">
+               <p class="et-text">FDRE</p>
+           </div></div>
+        </div>    
+      </section>
+      <section class="bottom-section">
+          <img class="logo-bottom" src="images/logo-bottom.jpeg" alt="logo">
+          <div class="bottom-text">
+              <p>Ethiopia Ministry of Tourism, Rights Reserved</p>
+              <p>የኢትዮጵያ  ቱሪዝም ሚንስትር  መብቱ በህግ የተጠቀ ነዉ።</p>
+          </div>
+      </section>
+      <p>
+      </p>
+   <script src="app.js"></script>   
   <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>  
 </body>
 </html>
