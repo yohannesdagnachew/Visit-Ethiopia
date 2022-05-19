@@ -1,5 +1,5 @@
 .nav-link {
-  color: white !important;
+  color: #d3d3d3 !important;
 }
 
 .logo {
@@ -8,7 +8,7 @@
 }
 
 .navbar {
-  background-color: rgb(48, 75, 8) !important;
+  background-color: #272a31 !important;
 }
 
 .navbar-nav {
@@ -60,6 +60,7 @@
   max-width: 50%;
   margin-left: 3.125rem;
   margin-top: 6.25rem;
+  font-family: lota;
 }
 
 .title-about {
@@ -123,6 +124,7 @@
   align-items: center;
   line-height: 1.25rem;
   margin-top: 3%;
+  font-family: lota;
 }
 
 .turist-et {
@@ -209,12 +211,14 @@
 
 .bottom-text-about {
   padding-top: 57px;
-  color: white;
+  color: #d3d3d3;
+  font-family: lota;
 }
 
 .home-pharagraph {
   font-size: 0.625rem;
   box-shadow: 1px 1px 4px 1px #b8b8b8;
+  font-family: cococogoose;
 }
 
 .card-img-top {
@@ -224,10 +228,11 @@
 }
 
 .minster {
-  color: white;
+  color: #d3d3d3;
   font-weight: bold;
   margin-top: 1.5625rem;
   margin-bottom: 1.5625rem;
+  font-family: lota;
 }
 
 .card:hover {
@@ -237,12 +242,14 @@
 .card-title {
   margin-left: 20%;
   font-weight: bold;
+  font-family: lota;
 }
 
 .place {
   display: flex;
   justify-content: center;
   padding: 0.9375rem;
+  font-family: lota;
 }
 
 .see-more {
@@ -255,14 +262,14 @@
 
 .see-text {
   background-color: #272a31;
-  color: white;
+  color: #d3d3d3;
   font-size: 1.5rem;
 }
 
 .title > p {
   max-width: 100%;
   font-size: 2rem;
-  color: white;
+  color: #d3d3d3;
 }
 
 .visit-cards {
@@ -270,6 +277,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 1.25rem;
+  font-family: lota;
 }
 
 .partners-container {
@@ -284,6 +292,7 @@
   padding-top: 1.25rem;
   color: gray;
   font-weight: 300;
+  font-family: lota;
 }
 
 .partners {
@@ -313,7 +322,8 @@
 .et-text {
   margin-top: 1.25rem;
   font-size: 1.25rem;
-  color: gray;
+  color: #d3d3d3;
+  font-family: cococogoose;
 }
 
 .et-text:hover {
@@ -336,6 +346,7 @@
 
 .bottom-text {
   padding-top: 57px;
+  font-family: lota;
 }
 
 .speakers-container {
@@ -393,13 +404,39 @@
   flex-direction: column;
   margin-bottom: 1.5625rem;
   line-height: 1.375rem;
+  font-family: lota;
 }
 
 @media (max-width: 768px) {
+  .boxs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speakers-container-item {
+    display: flex;
+    gap: 0.9375rem;
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    width: 98%;
+  }
+
+  .speakers-container-item::before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: -10px;
+    height: 50px;
+    width: 50px;
+    background-image: url("./images/realdama.jpeg");
+  }
+
   .title-about {
     margin-top: 0;
     margin-left: 0.625rem;
     max-width: 100%;
+    font-family: lota;
   }
 
   .visit-about {
@@ -407,6 +444,7 @@
     font-size: 2rem;
     padding-top: 1.875rem;
     padding-left: 0.625rem;
+    font-family: lota;
   }
 
   .about-phragraph {
@@ -417,6 +455,7 @@
     font-size: 1rem;
     margin-left: 0;
     margin-top: 2%;
+    font-family: cococogoose;
   }
 
   .about-phragraph2 {
@@ -455,6 +494,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 2rem;
+    font-family: lota;
   }
 
   .title {
@@ -464,7 +504,7 @@
   }
 
   .minster {
-    color: white;
+    color: #d3d3d3;
     margin-top: 1.5625rem;
     margin-bottom: 1.5625rem;
   }
@@ -493,13 +533,13 @@
   }
 
   .card-title {
-    color: black;
+    color: #272a31;
     font-weight: bold;
     margin-left: 37%;
   }
 
   .card-text {
-    color: black;
+    color: #272a31;
   }
 
   .partners-container {
@@ -608,10 +648,7 @@
   .nav-link {
     align-items: center;
     justify-content: center;
-  }
-
-  .nav-link:hover {
-    color: blue;
+    color: #d3d3d3;
   }
 
   .navbar-nav {
