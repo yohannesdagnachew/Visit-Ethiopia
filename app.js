@@ -1,39 +1,39 @@
-let speakersArry = [
+const speakersArry = [
   {
     photo: 'images/macron.jpeg',
     name: 'Macron',
     job: 'France Prisedant',
-    says: `One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.`,
+    says: 'One of Ethiopia national wonders is its famous rock-hewn churches of Lalibela.',
   },
   {
     photo: 'images/bob.jpeg',
     name: 'BOB',
     job: 'Musician',
-    says: `One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.`,
+    says: 'One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.',
   },
   {
     photo: 'images/mandela.jpeg',
     name: 'Mndela',
     job: 'S.A Prisedant',
-    says: `One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.`,
+    says: 'One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.',
   },
   {
     photo: 'images/sayat.jpeg',
     name: 'Sayat',
     job: 'Model',
-    says: `One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.`,
+    says: 'One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.',
   },
   {
     photo: 'images/rita.jpeg',
     name: 'Rita',
     job: 'Musician',
-    says: `One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.`,
+    says: 'One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.',
   },
   {
     photo: 'images/nati.jpeg',
     name: 'Nati',
     job: 'Musician',
-    says: `One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.`,
+    says: 'One of Ethiopia’s national wonders is its famous rock-hewn churches of Lalibela.',
   },
 ];
 const speakersContainer = document.querySelector('.speakers-container');
