@@ -39,7 +39,7 @@ Feel free to check the [issues page](https://github.com/yohannesdagnachew/Visit-
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- I would like to give my heartfelt gratitude to Cindy Shin in Behance for this amazing design.
 - My freinds and family
 - etc
 
