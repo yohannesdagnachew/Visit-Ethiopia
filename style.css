@@ -576,10 +576,10 @@
   }
 
   .logo-bottom {
-    height: 100px;
+    height: 90px;
     width: 80px;
-    margin-top: 34px;
-    margin-left: 0.3125rem;
+    margin-top: 18%;
+    margin-left: 0.625rem
   }
 
   /* togler */
