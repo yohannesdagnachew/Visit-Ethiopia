@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name
 
-> Visit Ethiopia.
+> A simple website to show tourism destination in Ethiopia.
+![screenshot](images/homepage.png)
+![screenshot](images/cardsimage.png)
 
 ## Built With
 
@@ -45,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is (none) licensed.
+This project is [Microverse](./MIT.md) licensed.
